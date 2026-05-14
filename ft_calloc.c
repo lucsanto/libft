@@ -4,6 +4,8 @@ void	*ft_calloc(size_t num, size_t size)
 {
 	void	*ptr;
 
+	if (num == 0 || size == 0)
+		return (malloc(1));
 	if (size != 0 && num > (size_t)-1 / size)
 		return (NULL);
 	else

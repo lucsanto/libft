@@ -10,7 +10,7 @@ static int	word_len(const char *s, char c)
 	return (i);
 }
 
-static int	count_words(char *s, char c)
+static int	count_words(const char *s, char c)
 {
 	int	count;
 	int	i;
@@ -47,8 +47,10 @@ char	**ft_split(char const *s, char c)
 	int		word;
 	int		letter;
 
+	if (!s)
+		return (NULL);
 	word = 0;
-	array = ft_calloc((count_words((char *) s, c) + 1), sizeof(char *));
+	array = ft_calloc((count_words(s, c) + 1), sizeof(char *));
 	if (!array)
 		return (NULL);
 	while (*s && *s == c)
@@ -56,7 +58,7 @@ char	**ft_split(char const *s, char c)
 	while (*s)
 	{
 		letter = 0;
-		array[word] = ft_calloc(word_len((char *)s, c) + 1, sizeof(char));
+		array[word] = ft_calloc(word_len(s, c) + 1, sizeof(char));
 		if (!array[word])
 			return (free_all(array));
 		while (*s && *s != c)

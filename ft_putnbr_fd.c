@@ -16,17 +16,13 @@ void	ft_putnbr_fd(int n, int fd)
 	if (nb < 0)
 	{
 		nb *= -1;
-		write (fd,"-", 1);
+		write (fd, "-", 1);
 	}
 	while (nb > 0)
 	{
-		c[i] = (nb % 10) + '0';
-		i++;
+		c[i++] = (nb % 10) + '0';
 		nb /= 10;
 	}
 	while (i > 0)
-	{
-		i--;
-		write (fd, &c[i], 1);
-	}
+		write (fd, &c[--i], 1);
 }
