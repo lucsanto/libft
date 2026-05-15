@@ -8,7 +8,7 @@
 
 <h2>Description</h2>
 
-Libft é o primeiro projeto do curricullum da 42 São Paulo. O objetivo desse projeto é recriar várias funções da standard C library (libc) e implementar outras funções que serão uteis para projetos futuros.
+Libft is the first project in the 42 São Paulo curriculum. The goal of this project is to recreate several functions from the standard C library (libc) and implement other functions that will be useful for future projects.
 
 This project reinforces very important concepts of C programming, such as memory manipulation, string handling, pointers, dynamic allocation, file descriptors, linked lists and Makefile.
 
