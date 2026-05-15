@@ -108,7 +108,7 @@ To use this library in another C file, include the header:
 
 Then compile your program with `libft.a`, for example:
 
-```cc -Wall -Wextra -Werror main.c libft.a -o program```
+```cc -Wall -Wextra -Werror main.c libft.a -o libft_tester```
 
 <h3>Example Usage</h3>
 
@@ -128,7 +128,7 @@ int	main(void)
 }
 ```
 
-Run: ```./program```
+Run: ```./libft_tester```
 
 Output: ```Libft is amazing, thank you 42!!!```
 
