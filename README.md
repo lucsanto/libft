@@ -139,7 +139,7 @@ Output: ```Libft is amazing, thank you 42!!!```
 <li>I also had the help of some friends, in particular I would like to mention: mariafer and rpaulino, respectively cadet and alumni at 42.</li>
 <li>I also used GPT for research sources, review, debugg and also to test my library, and he also improved (a lot) the program used that will be provided for testing this library.</li>
 
-<h1>Testing</h1>
+<h2>Testing</h2>
 
 I am providing, for library testing, 2 links, one, of my own, with a main that tests all the functions presented (the one that I asked GPT for help to improve).
 
