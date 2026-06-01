@@ -14,9 +14,13 @@
 
 char	*ft_strchr(const char *str, int c)
 {
-	while (*str && *str != (unsigned char)c)
-		str++;
-	if (*str == (unsigned char)c)
+	while (*str)
+		{
+			if ((unsigned char)*str == (unsigned char)c)
+				return ((char *)str);
+			str++;
+		}
+	if ((unsigned char)*str == (unsigned char)c)
 		return ((char *)str);
 	return (NULL);
 }
