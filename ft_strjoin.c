@@ -18,6 +18,8 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	char	*str;
 	char	*aux;
 
+	if (!s1 || !s2)
+		return (NULL);
 	total_len = (ft_strlen(s1) + ft_strlen(s2));
 	str = ft_calloc(total_len + 1, sizeof(char));
 	if (!str)
