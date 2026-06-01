@@ -26,6 +26,6 @@ char	*ft_strtrim(char const *s1, char const *set)
 		len--;
 	str_trimed = ft_substr(s1, 0, len);
 	if (!str_trimed)
-		return (0);
+		return (NULL);
 	return (str_trimed);
 }
