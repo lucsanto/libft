@@ -49,7 +49,7 @@ The project is divided into three main groups:
 
 <h3>Additional Functions</h3>
 
-These functions are not direct representations of functions present in libc, but are useful tools for string manipulation, memmory allocation and output:
+These functions are not direct representations of functions present in libc, but are useful tools for string manipulation, memory allocation and output:
 
 <ul>
   <li>ft_substr</li>
@@ -62,13 +62,12 @@ These functions are not direct representations of functions present in libc, but
   <li>ft_putchar_fd</li>
   <li>ft_putstr_fd</li>
   <li>ft_putendl_fd</li>
-  <li>ft_putendl_fd</li>
   <li>ft_putnbr_fd</li>
 </ul>
 
 <h3>Linked list functions</h3>
 
-These functions manipulate a signly linked list using the t_list structure:
+These functions manipulate a singly linked list using the t_list structure:
 
 ```c
 typedef struct s_list
@@ -85,7 +84,7 @@ Linked list functions:
   <li>ft_lstadd_front</li>
   <li>ft_lstsize</li>
   <li>ft_lstlast</li>
-  <li>ft_listadd_back</li>
+  <li>ft_lstadd_back</li>
   <li>ft_lstdelone</li>
   <li>ft_lstclear</li>
   <li>ft_lstiter</li>
