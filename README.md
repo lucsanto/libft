@@ -107,7 +107,7 @@ To use this library in another C file, include the header:
 
 Then compile your program with `libft.a`, for example:
 
-```cc -Wall -Wextra -Werror main.c libft.a -o libft_tester```
+```cc -Wall -Wextra -Werror main_libft_tester.c libft.a -I. -lbsd -o teste```
 
 <h3>Example Usage</h3>
 
@@ -136,11 +136,11 @@ Output: ```Libft is amazing, thank you 42!!!```
 <li>Obviously, the 42 Libft subject, which I have a habit of creating some checklists with the help of Notion.</li>
 <li>Always my first and biggest source of information: man7.org.</li>
 <li>I also had the help of some friends, in particular I would like to mention: mariafer and rpaulino, respectively cadet and alumni at 42.</li>
-<li>I also used GPT for research sources, review, debugg and also to test my library, and he also improved (a lot) the program used that will be provided for testing this library.</li>
+<li>I also used GPT for research sources, debugg and also to test my library, and he also improved my tester program.</li>
 
 <h2>Testing</h2>
 
-I am providing, for library testing, 2 links, one, of my own, with a main that tests all the functions presented (the one that I asked GPT for help to improve).
+I am providing, for library testing, 2 links, one, of my own, with a main that tests all the functions presented.
 
 Just run in your terminal: ```git clone git@github.com:luc-santos/libft_tester.git```.
 
