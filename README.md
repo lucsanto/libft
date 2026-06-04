@@ -151,5 +151,3 @@ The link to the repository where it contains all the information on how to use i
 And the link to the git clone: ```git clone git@github.com:Tripouille/libftTester.git```.
 
 Disclaimer: His test version is 19.1, the current libft pdf version is 19.2, so it is normal for conflicts to occur, if they do happen, I suggest that a second test be done for a reliable conference.
-
-Thank you :)
